@@ -1,0 +1,35 @@
+{
+  "name": "jm-config-mqtt",
+  "version": "0.0.1",
+  "description": "mqtt plugin for jm-config",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node node_modules/jm-server/bin/jm-server",
+    "cluster": "node node_modules/jm-server/bin/jm-server --cluster",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.jamma.cn/play/jm-config-mqtt.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-config-mqtt"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://git.jamma.cn/play/jm-config-mqtt/issues"
+  },
+  "homepage": "http://git.jamma.cn/play/jm-config-mqtt",
+  "devDependencies": {
+    "jm-config": "^1.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "jm-log4js": "^1.1.1",
+    "mqtt": "^2.13.0"
+  }
+}
